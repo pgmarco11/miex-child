@@ -72,11 +72,12 @@ if ( function_exists( 'prtfl_get_content' ) ) {
                         }
                         $permalink = get_permalink();
                         ?>
-                        <div class="item_title">
+                        <!--<div class="item_title">
                                     <h2>
                                         <a href="<?php echo $permalink; ?>" rel="bookmark"><?php echo $title; ?></a>
                                     </h2>
-                        </div><!-- .item_title -->
+                        </div>
+                        -->
                         <?php if ( ! empty( $image[0] ) ) {
                             /* get width and height for image_size_album */
                                 $width  = absint( get_option( 'medium_large' . '_size_w' ) );

@@ -274,7 +274,7 @@ ul.tutorial_buttons li { list-style: none !important; pad}
     width: 100% !important;
     margin: 0 auto;
 }
-.portfolio_thumb, .portfolio_short_content { padding: 2% 0 !important; }
+.portfolio_thumb, .portfolio_short_content { padding: 0; }
 .single-bws-portfolio .content-area { 
     float: none !important;
     margin: 0 auto !important; 
@@ -288,7 +288,7 @@ ul.tutorial_buttons li { list-style: none !important; pad}
     color: #2D3239;
 }
 .page-template-portfolio .section-padding {
-    padding: 40px 0;
+    padding: 0 0 40px 0;
 }
 .single-bws-portfolio .description { margin: 20px auto 0; }
 .portfolio_content .item_title h2 { 
